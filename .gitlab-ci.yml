@@ -13,7 +13,7 @@ test:
   stage: test
   script:
     - mvn test
-    - mvn surefire-report:report
+    - mvn surefire-report:report-only
   artifacts:
     paths:
-      - target/site/surefire-report
+      - target/site/surefire-report.html
