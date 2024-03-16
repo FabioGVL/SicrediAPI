@@ -96,7 +96,7 @@ O response esperado na documentação está em total acordo com o retornado na A
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerdo e selecione "Open"
 
@@ -154,7 +154,7 @@ O reponse esperado na documentação está em desacordo com o retornado na API.
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
@@ -212,7 +212,7 @@ O token do usuário esperado na documentação está em desacordo com o retornad
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
@@ -284,7 +284,7 @@ As informaçoes retornadas pela API estão em desacordo com a documentação.
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
@@ -343,7 +343,7 @@ Os demais tópicos, como a criação do POST e o retorno das demais informaçõe
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
@@ -407,7 +407,7 @@ O retorno das demais informações estão corretas e de acordo com a documentaç
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
@@ -451,7 +451,7 @@ Foram encontrados alguns bugs durante os testes:
 
 1. Crie uma pasta no seu desktop, abra e execute o powershell dentro da mesma
 
-2. Obtenha o código da automação através do comando "git clone https://gitlab.com/fabiogvlima/SicrediAPI.git" no PowerShell
+2. Obtenha o código da automação através do comando "git clone https://github.com/FabioGVL/SicrediAPI.git" no PowerShell
 
 3. Abra o IntelliJ, clique em nos 4 risquinhos no canto superior esquerto e selecione "Open"
 
