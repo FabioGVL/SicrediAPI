@@ -489,12 +489,15 @@ Foram encontrados alguns bugs durante os testes:
 
 ---
 
-### Gerando relatório completo dos testes
+### Gerando relatório completo dos testes (CICD)
 
-* Abra o terminal da IDE (localizado no canto inferior esquerdo)
-* Digite o comando **MVN Test**
-* Todos os testes serão executados automáticamente
-* O relatório HTML dos testes ficará salvo dentro de target/site/surefire-report
+* Acesse o repositório do link https://github.com/FabioGVL/SicrediAPI.git
+* No menu superior, clique em Actions
+* Clique no teste desejado
+* Certifique-se de que no menu a esquerda esteja selecionado a label SUMMARY
+* No rodapé da página, após conclusão do teste, o relatório completo estará diponível para download no campo ARTIFACTS 
+* Clique no arquivo e será realizado o download do relatório em formato Zip
+* Após isso, basta extrair o arquivo e abrir o relatório HTML de nome surefire-report.html
 
 ---
 
@@ -503,7 +506,8 @@ Foram encontrados alguns bugs durante os testes:
 * Java JDK 17+
 * GIT
 * Maven
-* Maven Surefire Report 3.2.5
+* Maven Surefire Report 3.0.0-M5
+* Exec Maven Plugin 3.1.1
 * Junit 5.10.1
 * Rest Assured 5.3.0
 * IDE (Sugestão IntelliJ)
