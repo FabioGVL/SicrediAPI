@@ -1,0 +1,25 @@
+image: maven:3.8.4-openjdk-17
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - mvn clean package
+
+test:
+  stage: test
+  script:
+    - mvn test
+    - mvn surefire-report:report-only
+  artifacts:
+    paths:
+      - target/site/surefire-report
+
+deploy:
+  stage: deploy
+  script:
+    - mvn deploy
