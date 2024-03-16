@@ -3,7 +3,6 @@ image: maven:3.8.4-openjdk-17
 stages:
   - build
   - test
-  - deploy
 
 build:
   stage: build
@@ -14,14 +13,7 @@ test:
   stage: test
   script:
     - mvn test
-    - mvn surefire-report:report-only
+    - mvn surefire-report:report
   artifacts:
     paths:
       - target/site/surefire-report
-
-deploy:
-  stage: deploy
-  script:
-    - mvn deploy
-  only:
-    - main
