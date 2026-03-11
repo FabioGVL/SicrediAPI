@@ -1,6 +1,49 @@
 # Escopo do Projeto
 Os testes abaixo visam garantir a funcionalidade correta e a integridade dos dados fornecidos pela API. Todos os testes foram realizados na linguagem JAVA, utilizando a ferramenta de automação Selenium, os resultados dos testes serão documentados e relatados utilizando o Maven Surefire Report para gerar relatórios HTML automatizados. Os relatórios serão utilizados para análise e melhoria contínua do sistema.
 
+## Escopo do Teste
+
+### 1. Mapeamento de Features:
+* **Endpoints de Consulta:** Rotas destinadas à verificação de dados e restrições.
+* **Endpoints de Gerenciamento:** Rotas para envio de informações e processamento de requisições conforme a documentação técnica do Sicredi.
+
+### 2. Features Testadas:
+* **Conformidade de Endpoints (GET e POST):** Validação técnica das rotas mapeadas para garantir que as operações de consulta e manutenção retornam os dados esperados.
+* **Validação de Status Codes:** Garantia de que a API responde com os códigos HTTP corretos (ex: 200 OK, 201 Created, 204 No Content, 400 Bad Request) para cada cenário mapeado.
+* **Garantia de Request/Response:** Verificação se a estrutura da resposta recebida pelo Java coincide com as especificações técnicas da documentação original.
+
+### 3. Massa de Dados para Teste:
+* **Parâmetros de Requisição:** Uso de chaves e identificadores específicos nos testes para validar diferentes retornos da API.
+* **Dados de Exemplo:** Utilização de dados baseados na documentação para conferir a fidelidade da resposta do servidor.
+
+### 4. Tipos de Testes Utilizados:
+* **Testes de Funcionalidade:** Garantir que os endpoints da API estão operando e retornando os dados conforme o esperado na documentação.
+* **Testes de Integração:** Garantir que a comunicação entre o cliente e o servidor da API ocorra sem falhas de protocolo ou conexão.
+* **Testes de Contrato:** Verificar se a estrutura dos dados retornados está em total conformidade com o padrão técnico estabelecido.
+
+## Arquitetura e estrutura
+
+O projeto foi desenvolvido focado em testes de integração de API utilizando o ecossistema Java, priorizando a legibilidade e a validação rigorosa do contrato:
+
+* **Rest-Assured:** Utilizado como a principal biblioteca para automação de API, permitindo uma sintaxe fluida (Given/When/Then) para realizar requisições HTTP e validar respostas.
+
+* **JUnit 5:** Framework de execução de testes utilizado para estruturar as suítes, gerenciar o ciclo de vida dos testes e fornecer relatórios de execução.
+
+* **Java Services Pattern:** Organização dos testes dentro de pacotes de Services, separando as responsabilidades de cada endpoint consultado.
+
+* **Asserções de Resposta:** Uso das funcionalidades nativas do Rest-Assured para validar não apenas os Status Codes, mas também a integridade do corpo das respostas JSON (Path validation).
+
+## Tecnologias e ambientes utilizados para execução do projeto
+
+* Java JDK 17+
+* GIT
+* Maven
+* Maven Surefire Report 3.0.0-M5
+* Exec Maven Plugin 3.1.1
+* Junit 5.10.1
+* Rest Assured 5.3.0
+* IDE (Sugestão IntelliJ)
+
 ## Testes e Validações
 
 ### Buscar o status da aplicação
@@ -491,16 +534,3 @@ Foram encontrados alguns bugs durante os testes:
 * No rodapé da página, após conclusão do teste, o relatório completo estará diponível para download no campo ARTIFACTS 
 * Clique no arquivo e será realizado o download do relatório em formato Zip
 * Após isso, basta extrair o arquivo e abrir o relatório HTML de nome surefire-report.html
-
----
-
-### Requisitos necessários para execução do projeto
-
-* Java JDK 17+
-* GIT
-* Maven
-* Maven Surefire Report 3.0.0-M5
-* Exec Maven Plugin 3.1.1
-* Junit 5.10.1
-* Rest Assured 5.3.0
-* IDE (Sugestão IntelliJ)
