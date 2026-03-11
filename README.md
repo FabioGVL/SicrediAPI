@@ -1,8 +1,5 @@
-## Escopo do Projeto
-
+# Escopo do Projeto
 Os testes abaixo visam garantir a funcionalidade correta e a integridade dos dados fornecidos pela API. Todos os testes foram realizados na linguagem JAVA, utilizando a ferramenta de automação Selenium, os resultados dos testes serão documentados e relatados utilizando o Maven Surefire Report para gerar relatórios HTML automatizados. Os relatórios serão utilizados para análise e melhoria contínua do sistema.
-
----
 
 ## Testes e Validações
 
